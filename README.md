@@ -1,2 +1,0 @@
-# portfolio
-software developer portfolio
