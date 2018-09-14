@@ -25,6 +25,15 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+h2 {
+    /* font-family: Asap; too flowy */
+    font-family: Nunito Sans;
+    /* font-family: Yanone Kaffeesatz; narrow */
+    /* font-family: Cinzel; too complex */
+    /* font-family: Merriweather Sans; a little dull */
+    /* font-family: Yanone Kaffeesatz; very narrow */
+}
+
 body {
     line-height: 1;
 }

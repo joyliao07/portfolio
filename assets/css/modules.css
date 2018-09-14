@@ -68,35 +68,11 @@
             background-color: #e8edec;
         }
 
-/* Wide */
-
-@media screen and (min-width: 961px) and (max-width: 1880px) {
-
-    /* Basic */
-
-        body, input, textarea, select {
-            font-size: 17pt;
-        }
-
-    /* Header */
-
-        #header {
-            width: 300px;
-        }
-
-    /* Footer */
-
-        #footer {
-            margin-left: 300px;
-        }
-
-    /* Main */
-
-        #main {
-            margin-left: 300px;
-        }
-
+.project-list {
+    list-style: none;
 }
+
+
 
 
 
