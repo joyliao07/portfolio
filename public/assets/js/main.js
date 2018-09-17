@@ -127,13 +127,9 @@
     myImage.css('src', new_img);
     setTimeout ( function(){
       myImage.css('background-image', new_img);
-    }, 2000);
-    console.log('new_img: ', new_img);
-
+    }, 2500);
   }
   change_background('url("../../images/pic02.jpg")');
-
-
 
 
 
