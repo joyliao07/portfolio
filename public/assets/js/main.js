@@ -4,10 +4,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-console.log('outside function');
 
 (function($) {
-  console.log('inside function');
   var	$window = $(window),
     $body = $('body'),
     $nav = $('#nav');
@@ -121,5 +119,22 @@ console.log('outside function');
       target: $body,
       visibleClass: 'header-visible'
     });
+
+
+  // carousel
+  function change_background ( new_img ) {
+    var myImage = $('#main > section.one');
+    myImage.css('src', new_img);
+    setTimeout ( function(){
+      myImage.css('background-image', new_img);
+    }, 2000);
+    console.log('new_img: ', new_img);
+
+  }
+  change_background('url("../../images/pic02.jpg")');
+
+
+
+
 
 })(jQuery);
