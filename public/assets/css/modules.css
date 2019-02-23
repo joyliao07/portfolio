@@ -13,58 +13,63 @@
     margin-left: 375px;
 }
 
+/* Here for initial image!! */
 #main > section {
     margin: 0;
     overflow: hidden;
     padding: 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     text-align: center;
-    background-image: url("images/overlay.png");
+    background-image: url("../../images/technology_pixabay.jpg");
 }
 
-#main > section.dark {
+section.dark {
     color: #ddd;
     color: rgba(255, 255, 255, 0.75);
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
-    #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-        color: inherit;
-    }
+.dark p {
+    color: white;
+    font-size: 25px;
+}
 
-    #main > section.dark strong {
-        color: #fff;
-        border-color: inherit;
-    }
+/* .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: inherit;
+} */
+    
+.dark strong {
+    color: #fff;
+    border-color: inherit;
+    opacity: 1;
+}
 
-    #main > section.dark a {
-        color: #fff;
-        border-color: inherit;
-    }
+.dark a {
+    color: #fff;
+    border-color: inherit;
+    opacity: 1;
+}
+    
+.dark a:hover {
+    border-bottom-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
 
-        #main > section.dark a:hover {
-            border-bottom-color: rgba(255, 255, 255, 0);
-        }
-
-#main > section.cover {
+.cover {
     padding: 10em 0;
     background-size: cover;
     background-position: center center;
 }
 
-#main > section.one {
-    background-color: #81918E;
-    background-image: url("../../images/banner.jpg");
-}
-
-#main > section.two {
+.two {
     background-color: #f5fafa;
 }
 
-#main > section.three {
+.three {
     background-color: #ecf1f1;
 }
 
-#main > section.four {
+.four {
     background-color: #e8edec;
 }
 

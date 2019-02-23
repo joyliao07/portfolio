@@ -125,12 +125,52 @@
   function change_background ( new_img ) {
     var myImage = $('#main > section.one');
     myImage.css('src', new_img);
+
+    setTimeout ( function(){
+      myImage.css('opacity', 0.8);
+    }, 300);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.6);
+    }, 400);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.4);
+    }, 500);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.2);
+    }, 600);
     setTimeout ( function(){
       myImage.css('background-image', new_img);
-    }, 2500);
+      myImage.css('opacity', 0.1);
+    }, 700);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.2);
+    }, 800);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.3);
+    }, 900);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.4);
+    }, 1000);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.5);
+    }, 1100);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.6);
+    }, 1200);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.7);
+    }, 1300);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.8);
+    }, 1400);
+    setTimeout ( function(){
+      myImage.css('opacity', 0.9);
+    }, 1500);
+    setTimeout ( function(){
+      myImage.css('opacity', 1);
+    }, 1600);
+
   }
-  change_background('url("../../images/pic02.jpg")');
-
-
+  change_background('url("../../images/pic02_02.jpg")');
 
 })(jQuery);
